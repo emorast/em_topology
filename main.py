@@ -3,9 +3,9 @@ import json
 
 def main():
 
-    network = Network("My network", 'testdata.geojson')
+    network = Network("My network", 'testwgs84.geojson')
 
-    network.print_network_name()
+    network.write("out")
 
     return
 

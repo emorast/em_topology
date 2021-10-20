@@ -1,17 +1,24 @@
 import json
 import math as m
 from geojson import Point, MultiLineString, Feature, FeatureCollection, dump
+from queue import Queue
 
 class Node:
 
-    node_count = 0
+    __node_count = 0
 
+    # TODO: Add next node array
     def __init__(self, position):
 
-        self.id = Node.node_count
+        Node.__node_count += 1
+
+        self.id = Node.__node_count
         self.position = position
+        self.next = {}
+
         self.data = Feature(geometry = Point((position[0], position[1]), precision = 15),
                             properties = {"id": self.id})
+
 
         return
 
@@ -32,15 +39,13 @@ class Segment:
         self.cost = cost
         self.fnode = fnode
         self.tnode = tnode
-        self.data = Feature(geometry = MultiLineString(((coordinates)),
-                            precision = 15),
-                            properties = {"id": self.id,
-                                            "cost": self.cost,
-                                            "fnode": self.fnode,
-                                            "tnode": self.tnode})
+        self.data = Feature(geometry = MultiLineString(((coordinates)), precision = 15), properties = {"id": self.id, "cost": self.cost})
+
         return
 
 class Network:
+
+    __sum_nodes = 0
 
     def __init__(self, name, file_name):
 
@@ -51,67 +56,83 @@ class Network:
         with open(file_name) as f:
             data = json.load(f)
 
-            i = 0;
-
-            nodes = []
-
             for feature in data['features']:
 
-                temp_seg = Segment(feature['properties']['gid'],
-                                    feature['properties']['shape_leng'],
-                                    feature['geometry']['coordinates'])
+                seg = Segment(feature['properties']['gid'], feature['properties']['shape_leng'], feature['geometry']['coordinates'])
 
                 seg_nodes = []
 
                 for point in feature['geometry']['coordinates'][0]:
 
-                    temp_node = Node(point)
+                    new_node = Node(point)
 
-                    seg_nodes.append(temp_node)
+                    seg_nodes.append(new_node)
 
-                # TODO: Improve algorithm to calculate longest euclidean distance between any
-                # two nodes on the segment """
 
-                max_d = {}
+                first = True
+
                 for a in seg_nodes:
+
                     for b in seg_nodes:
 
+                        # Euclidean distance
                         d = m.sqrt((a.position[0] - b.position[0])**2 + (a.position[1] - b.position[1])**2)
 
-                        if len(max_d.keys()) == 0:
-
-                            max_d[d] = [a, b]
+                        if first:
 
                             dmax = d
+                            start = a
+                            end = b
+                            first = False
 
                         else:
-
                             if d > dmax:
-
                                 dmax = d
+                                start = a
+                                end = b
 
-                                max_d[dmax] = [a, b]
+                            else:
+                                next
 
-                temp_seg.fnode = max_d[dmax][1]
-                temp_seg.tnode = max_d[dmax][0]
-                nodes.append(max_d[dmax][1])
-                nodes.append(max_d[dmax][0])
+                Network.__sum_nodes += 1
+                for nid, node in self.nodes.items():
 
-                Node.node_count += 2
+                    if start == node:
 
-                self.edges[temp_seg.id] = temp_seg
+                            Network.__sum_nodes -= 1
+                            start = node
 
-            for node in nodes:
+                            break
 
-                if node not in self.nodes.values():
+                    else:
 
-                    self.nodes[node.id] = node
+                        next
 
-                else:
+                self.nodes[start.id] = start
+                seg.fnode = start
 
-                    Node.node_count -= 1
+                Network.__sum_nodes += 1
+                for nid, node in self.nodes.items():
 
-        print("SUCCESS: Created " + str(Node.node_count) + " nodes")
+                    if end == node:
+
+                            Network.__sum_nodes -= 1
+                            end = node
+
+                            break
+
+                    else:
+
+                        next
+
+                self.nodes[end.id] = end
+                seg.tnode = end
+
+                # Update geojson
+                seg.data['properties'].update({"fnode" : start.id, "tnode" : end.id})
+                self.edges[seg.id] = seg
+
+        print("SUCCESS: Created " + str(Network.__sum_nodes) + " nodes")
         return
 
     # Calculates shortest path between source and target node
@@ -121,7 +142,7 @@ class Network:
 
     def shortest_path(self, source, target):
 
-
+        Q.Queue()
 
         return seq
 

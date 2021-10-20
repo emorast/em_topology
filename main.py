@@ -1,5 +1,6 @@
-from mymodule import Network
+from network import Network
 import json
+from queue import Queue
 
 def main():
 

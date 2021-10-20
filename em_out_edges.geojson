@@ -65,8 +65,8 @@
       "properties": {
         "id": 10911,
         "cost": 196.079184949,
-        "fnode": null,
-        "tnode": null
+        "fnode": 1,
+        "tnode": 13
       }
     },
     {
@@ -101,8 +101,8 @@
       "properties": {
         "id": 10985,
         "cost": 54.3270544619,
-        "fnode": null,
-        "tnode": null
+        "fnode": 14,
+        "tnode": 18
       }
     },
     {
@@ -145,8 +145,8 @@
       "properties": {
         "id": 10986,
         "cost": 64.665574337,
-        "fnode": null,
-        "tnode": null
+        "fnode": 19,
+        "tnode": 18
       }
     },
     {
@@ -181,8 +181,8 @@
       "properties": {
         "id": 11055,
         "cost": 59.1530956797,
-        "fnode": null,
-        "tnode": null
+        "fnode": 26,
+        "tnode": 19
       }
     },
     {
@@ -213,8 +213,8 @@
       "properties": {
         "id": 11056,
         "cost": 100.148843908,
-        "fnode": null,
-        "tnode": null
+        "fnode": 26,
+        "tnode": 1
       }
     },
     {
@@ -257,8 +257,8 @@
       "properties": {
         "id": 11116,
         "cost": 62.951099489,
-        "fnode": null,
-        "tnode": null
+        "fnode": 35,
+        "tnode": 41
       }
     },
     {
@@ -289,8 +289,8 @@
       "properties": {
         "id": 11138,
         "cost": 61.6050281452,
-        "fnode": null,
-        "tnode": null
+        "fnode": 18,
+        "tnode": 45
       }
     },
     {
@@ -333,8 +333,8 @@
       "properties": {
         "id": 11139,
         "cost": 64.9906736833,
-        "fnode": null,
-        "tnode": null
+        "fnode": 45,
+        "tnode": 26
       }
     },
     {
@@ -369,8 +369,8 @@
       "properties": {
         "id": 11250,
         "cost": 80.0415693274,
-        "fnode": null,
-        "tnode": null
+        "fnode": 41,
+        "tnode": 57
       }
     },
     {
@@ -397,8 +397,8 @@
       "properties": {
         "id": 11251,
         "cost": 64.8522945046,
-        "fnode": null,
-        "tnode": null
+        "fnode": 45,
+        "tnode": 57
       }
     },
     {
@@ -449,8 +449,8 @@
       "properties": {
         "id": 11313,
         "cost": 63.7488479456,
-        "fnode": null,
-        "tnode": null
+        "fnode": 61,
+        "tnode": 69
       }
     },
     {
@@ -485,8 +485,8 @@
       "properties": {
         "id": 11342,
         "cost": 80.6692240034,
-        "fnode": null,
-        "tnode": null
+        "fnode": 70,
+        "tnode": 35
       }
     },
     {
@@ -521,8 +521,8 @@
       "properties": {
         "id": 11343,
         "cost": 65.1261590523,
-        "fnode": null,
-        "tnode": null
+        "fnode": 57,
+        "tnode": 70
       }
     },
     {
@@ -565,8 +565,8 @@
       "properties": {
         "id": 11344,
         "cost": 136.934078105,
-        "fnode": null,
-        "tnode": null
+        "fnode": 80,
+        "tnode": 1
       }
     },
     {
@@ -605,8 +605,8 @@
       "properties": {
         "id": 11345,
         "cost": 177.882184841,
-        "fnode": null,
-        "tnode": null
+        "fnode": 80,
+        "tnode": 92
       }
     },
     {
@@ -661,8 +661,8 @@
       "properties": {
         "id": 11350,
         "cost": 125.563135797,
-        "fnode": null,
-        "tnode": null
+        "fnode": 93,
+        "tnode": 92
       }
     },
     {
@@ -709,8 +709,8 @@
       "properties": {
         "id": 11434,
         "cost": 87.7081815445,
-        "fnode": null,
-        "tnode": null
+        "fnode": 103,
+        "tnode": 69
       }
     },
     {
@@ -741,8 +741,8 @@
       "properties": {
         "id": 11435,
         "cost": 64.5384991062,
-        "fnode": null,
-        "tnode": null
+        "fnode": 103,
+        "tnode": 70
       }
     },
     {
@@ -781,8 +781,8 @@
       "properties": {
         "id": 11443,
         "cost": 149.37792817,
-        "fnode": null,
-        "tnode": null
+        "fnode": 115,
+        "tnode": 26
       }
     },
     {
@@ -813,8 +813,8 @@
       "properties": {
         "id": 11444,
         "cost": 57.6958573749,
-        "fnode": null,
-        "tnode": null
+        "fnode": 115,
+        "tnode": 80
       }
     },
     {
@@ -853,8 +853,8 @@
       "properties": {
         "id": 11471,
         "cost": 42.0408414497,
-        "fnode": null,
-        "tnode": null
+        "fnode": 125,
+        "tnode": 93
       }
     },
     {
@@ -893,8 +893,8 @@
       "properties": {
         "id": 11509,
         "cost": 85.2941049904,
-        "fnode": null,
-        "tnode": null
+        "fnode": 131,
+        "tnode": 61
       }
     },
     {
@@ -929,8 +929,8 @@
       "properties": {
         "id": 11510,
         "cost": 64.5396576339,
-        "fnode": null,
-        "tnode": null
+        "fnode": 131,
+        "tnode": 103
       }
     },
     {
@@ -973,8 +973,8 @@
       "properties": {
         "id": 11522,
         "cost": 155.160738375,
-        "fnode": null,
-        "tnode": null
+        "fnode": 45,
+        "tnode": 148
       }
     },
     {
@@ -1009,8 +1009,8 @@
       "properties": {
         "id": 11523,
         "cost": 64.2645399591,
-        "fnode": null,
-        "tnode": null
+        "fnode": 115,
+        "tnode": 148
       }
     },
     {
@@ -1045,8 +1045,8 @@
       "properties": {
         "id": 11565,
         "cost": 56.8784128361,
-        "fnode": null,
-        "tnode": null
+        "fnode": 154,
+        "tnode": 125
       }
     },
     {
@@ -1077,8 +1077,8 @@
       "properties": {
         "id": 11578,
         "cost": 108.162063345,
-        "fnode": null,
-        "tnode": null
+        "fnode": 159,
+        "tnode": 162
       }
     },
     {
@@ -1109,8 +1109,8 @@
       "properties": {
         "id": 11579,
         "cost": 69.9196779554,
-        "fnode": null,
-        "tnode": null
+        "fnode": 131,
+        "tnode": 159
       }
     },
     {
@@ -1141,8 +1141,8 @@
       "properties": {
         "id": 11597,
         "cost": 173.538780968,
-        "fnode": null,
-        "tnode": null
+        "fnode": 167,
+        "tnode": 93
       }
     },
     {
@@ -1181,8 +1181,8 @@
       "properties": {
         "id": 11603,
         "cost": 164.730553752,
-        "fnode": null,
-        "tnode": null
+        "fnode": 57,
+        "tnode": 176
       }
     },
     {
@@ -1213,8 +1213,8 @@
       "properties": {
         "id": 11604,
         "cost": 63.3101415356,
-        "fnode": null,
-        "tnode": null
+        "fnode": 148,
+        "tnode": 176
       }
     },
     {
@@ -1253,8 +1253,8 @@
       "properties": {
         "id": 11671,
         "cost": 127.076782323,
-        "fnode": null,
-        "tnode": null
+        "fnode": 181,
+        "tnode": 115
       }
     },
     {
@@ -1285,8 +1285,8 @@
       "properties": {
         "id": 11672,
         "cost": 62.9314896386,
-        "fnode": null,
-        "tnode": null
+        "fnode": 181,
+        "tnode": 167
       }
     },
     {
@@ -1329,8 +1329,8 @@
       "properties": {
         "id": 11682,
         "cost": 171.564001535,
-        "fnode": null,
-        "tnode": null
+        "fnode": 191,
+        "tnode": 70
       }
     },
     {
@@ -1369,8 +1369,8 @@
       "properties": {
         "id": 11683,
         "cost": 64.5452030605,
-        "fnode": null,
-        "tnode": null
+        "fnode": 191,
+        "tnode": 176
       }
     },
     {
@@ -1409,8 +1409,8 @@
       "properties": {
         "id": 11775,
         "cost": 84.9885110311,
-        "fnode": null,
-        "tnode": null
+        "fnode": 204,
+        "tnode": 167
       }
     },
     {
@@ -1445,8 +1445,8 @@
       "properties": {
         "id": 11776,
         "cost": 176.023368917,
-        "fnode": null,
-        "tnode": null
+        "fnode": 204,
+        "tnode": 125
       }
     },
     {
@@ -1481,8 +1481,8 @@
       "properties": {
         "id": 11778,
         "cost": 63.0565257325,
-        "fnode": null,
-        "tnode": null
+        "fnode": 215,
+        "tnode": 181
       }
     },
     {
@@ -1525,8 +1525,8 @@
       "properties": {
         "id": 11789,
         "cost": 180.195794298,
-        "fnode": null,
-        "tnode": null
+        "fnode": 220,
+        "tnode": 103
       }
     },
     {
@@ -1557,8 +1557,8 @@
       "properties": {
         "id": 11790,
         "cost": 62.5425476053,
-        "fnode": null,
-        "tnode": null
+        "fnode": 191,
+        "tnode": 220
       }
     },
     {
@@ -1601,8 +1601,8 @@
       "properties": {
         "id": 11877,
         "cost": 128.196514492,
-        "fnode": null,
-        "tnode": null
+        "fnode": 176,
+        "tnode": 237
       }
     },
     {
@@ -1633,8 +1633,8 @@
       "properties": {
         "id": 11878,
         "cost": 64.2893166589,
-        "fnode": null,
-        "tnode": null
+        "fnode": 215,
+        "tnode": 237
       }
     },
     {
@@ -1673,8 +1673,8 @@
       "properties": {
         "id": 11884,
         "cost": 187.128706175,
-        "fnode": null,
-        "tnode": null
+        "fnode": 242,
+        "tnode": 131
       }
     },
     {
@@ -1709,8 +1709,8 @@
       "properties": {
         "id": 11885,
         "cost": 64.6477773807,
-        "fnode": null,
-        "tnode": null
+        "fnode": 220,
+        "tnode": 242
       }
     },
     {
@@ -1745,8 +1745,8 @@
       "properties": {
         "id": 11889,
         "cost": 56.2497465012,
-        "fnode": null,
-        "tnode": null
+        "fnode": 253,
+        "tnode": 204
       }
     },
     {
@@ -1781,8 +1781,8 @@
       "properties": {
         "id": 11890,
         "cost": 169.716906198,
-        "fnode": null,
-        "tnode": null
+        "fnode": 253,
+        "tnode": 154
       }
     },
     {
@@ -1829,8 +1829,8 @@
       "properties": {
         "id": 11905,
         "cost": 100.167969864,
-        "fnode": null,
-        "tnode": null
+        "fnode": 263,
+        "tnode": 181
       }
     },
     {
@@ -1861,8 +1861,8 @@
       "properties": {
         "id": 11906,
         "cost": 59.8283698659,
-        "fnode": null,
-        "tnode": null
+        "fnode": 204,
+        "tnode": 263
       }
     },
     {
@@ -1893,8 +1893,8 @@
       "properties": {
         "id": 11939,
         "cost": 19.5530342611,
-        "fnode": null,
-        "tnode": null
+        "fnode": 275,
+        "tnode": 253
       }
     },
     {
@@ -1933,8 +1933,8 @@
       "properties": {
         "id": 11996,
         "cost": 63.5535909422,
-        "fnode": null,
-        "tnode": null
+        "fnode": 279,
+        "tnode": 237
       }
     },
     {
@@ -1961,8 +1961,8 @@
       "properties": {
         "id": 12006,
         "cost": 27.1313283501,
-        "fnode": null,
-        "tnode": null
+        "fnode": 285,
+        "tnode": 275
       }
     },
     {
@@ -1997,8 +1997,8 @@
       "properties": {
         "id": 12007,
         "cost": 107.893900491,
-        "fnode": null,
-        "tnode": null
+        "fnode": 285,
+        "tnode": 292
       }
     },
     {
@@ -2041,8 +2041,8 @@
       "properties": {
         "id": 12015,
         "cost": 196.046561411,
-        "fnode": null,
-        "tnode": null
+        "fnode": 293,
+        "tnode": 159
       }
     },
     {
@@ -2069,8 +2069,8 @@
       "properties": {
         "id": 12016,
         "cost": 66.7646522699,
-        "fnode": null,
-        "tnode": null
+        "fnode": 293,
+        "tnode": 242
       }
     },
     {
@@ -2113,8 +2113,8 @@
       "properties": {
         "id": 12077,
         "cost": 114.899857062,
-        "fnode": null,
-        "tnode": null
+        "fnode": 303,
+        "tnode": 215
       }
     },
     {
@@ -2149,8 +2149,8 @@
       "properties": {
         "id": 12078,
         "cost": 64.4077887746,
-        "fnode": null,
-        "tnode": null
+        "fnode": 263,
+        "tnode": 303
       }
     },
     {
@@ -2193,8 +2193,8 @@
       "properties": {
         "id": 12122,
         "cost": 127.092832197,
-        "fnode": null,
-        "tnode": null
+        "fnode": 315,
+        "tnode": 220
       }
     },
     {
@@ -2229,8 +2229,8 @@
       "properties": {
         "id": 12123,
         "cost": 63.4233687489,
-        "fnode": null,
-        "tnode": null
+        "fnode": 315,
+        "tnode": 279
       }
     },
     {
@@ -2257,8 +2257,8 @@
       "properties": {
         "id": 12186,
         "cost": 69.0498204443,
-        "fnode": null,
-        "tnode": null
+        "fnode": 327,
+        "tnode": 285
       }
     },
     {
@@ -2289,8 +2289,8 @@
       "properties": {
         "id": 12235,
         "cost": 63.1135694766,
-        "fnode": null,
-        "tnode": null
+        "fnode": 330,
+        "tnode": 315
       }
     },
     {
@@ -2329,8 +2329,8 @@
       "properties": {
         "id": 12236,
         "cost": 131.789211212,
-        "fnode": null,
-        "tnode": null
+        "fnode": 237,
+        "tnode": 339
       }
     },
     {
@@ -2369,8 +2369,8 @@
       "properties": {
         "id": 12237,
         "cost": 65.014566662,
-        "fnode": null,
-        "tnode": null
+        "fnode": 339,
+        "tnode": 303
       }
     },
     {
@@ -2405,8 +2405,8 @@
       "properties": {
         "id": 12333,
         "cost": 127.561320227,
-        "fnode": null,
-        "tnode": null
+        "fnode": 346,
+        "tnode": 293
       }
     },
     {
@@ -2445,8 +2445,8 @@
       "properties": {
         "id": 12334,
         "cost": 68.4311217996,
-        "fnode": null,
-        "tnode": null
+        "fnode": 346,
+        "tnode": 330
       }
     },
     {
@@ -2485,8 +2485,8 @@
       "properties": {
         "id": 12343,
         "cost": 55.9025117931,
-        "fnode": null,
-        "tnode": null
+        "fnode": 357,
+        "tnode": 339
       }
     },
     {
@@ -2529,8 +2529,8 @@
       "properties": {
         "id": 12344,
         "cost": 189.421060936,
-        "fnode": null,
-        "tnode": null
+        "fnode": 357,
+        "tnode": 253
       }
     },
     {
@@ -2585,8 +2585,8 @@
       "properties": {
         "id": 12356,
         "cost": 146.373206515,
-        "fnode": null,
-        "tnode": null
+        "fnode": 370,
+        "tnode": 279
       }
     },
     {
@@ -2613,8 +2613,8 @@
       "properties": {
         "id": 12357,
         "cost": 63.1839327695,
-        "fnode": null,
-        "tnode": null
+        "fnode": 370,
+        "tnode": 339
       }
     },
     {
@@ -2645,8 +2645,8 @@
       "properties": {
         "id": 12382,
         "cost": 22.052380532,
-        "fnode": null,
-        "tnode": null
+        "fnode": 383,
+        "tnode": 357
       }
     },
     {
@@ -2673,8 +2673,8 @@
       "properties": {
         "id": 12409,
         "cost": 24.6423293063,
-        "fnode": null,
-        "tnode": null
+        "fnode": 387,
+        "tnode": 383
       }
     },
     {
@@ -2717,8 +2717,8 @@
       "properties": {
         "id": 12410,
         "cost": 189.889241316,
-        "fnode": null,
-        "tnode": null
+        "fnode": 387,
+        "tnode": 285
       }
     },
     {
@@ -2757,8 +2757,8 @@
       "properties": {
         "id": 12453,
         "cost": 162.592496314,
-        "fnode": null,
-        "tnode": null
+        "fnode": 397,
+        "tnode": 315
       }
     },
     {
@@ -2785,8 +2785,8 @@
       "properties": {
         "id": 12454,
         "cost": 64.1494846454,
-        "fnode": null,
-        "tnode": null
+        "fnode": 397,
+        "tnode": 370
       }
     },
     {
@@ -2809,8 +2809,8 @@
       "properties": {
         "id": 12491,
         "cost": 51.0320380344,
-        "fnode": null,
-        "tnode": null
+        "fnode": 406,
+        "tnode": 387
       }
     },
     {
@@ -2845,8 +2845,8 @@
       "properties": {
         "id": 12492,
         "cost": 191.06287018,
-        "fnode": null,
-        "tnode": null
+        "fnode": 406,
+        "tnode": 327
       }
     },
     {
@@ -2893,8 +2893,8 @@
       "properties": {
         "id": 12557,
         "cost": 177.999174743,
-        "fnode": null,
-        "tnode": null
+        "fnode": 413,
+        "tnode": 330
       }
     },
     {
@@ -2925,8 +2925,8 @@
       "properties": {
         "id": 12558,
         "cost": 62.9644542924,
-        "fnode": null,
-        "tnode": null
+        "fnode": 413,
+        "tnode": 397
       }
     },
     {
@@ -2965,8 +2965,8 @@
       "properties": {
         "id": 12625,
         "cost": 184.471314774,
-        "fnode": null,
-        "tnode": null
+        "fnode": 425,
+        "tnode": 357
       }
     },
     {
@@ -3025,8 +3025,8 @@
       "properties": {
         "id": 12712,
         "cost": 250.063496483,
-        "fnode": null,
-        "tnode": null
+        "fnode": 431,
+        "tnode": 346
       }
     },
     {
@@ -3057,8 +3057,8 @@
       "properties": {
         "id": 12806,
         "cost": 250.063496483,
-        "fnode": null,
-        "tnode": null
+        "fnode": 442,
+        "tnode": 431
       }
     },
     {
@@ -3089,8 +3089,8 @@
       "properties": {
         "id": 12807,
         "cost": 79.344442174,
-        "fnode": null,
-        "tnode": null
+        "fnode": 442,
+        "tnode": 425
       }
     }
   ]

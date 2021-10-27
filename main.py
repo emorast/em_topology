@@ -4,9 +4,11 @@ from queue import Queue
 
 def main():
 
-    network = Network("My network", 'testwgs84.geojson')
+    # network = Network("My network", 'testwgs84.geojson')
 
-    network.write("out")
+    # network.write("out")
+
+    # network.shortest_path(1, 279)
 
     return
 

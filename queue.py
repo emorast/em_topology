@@ -2,11 +2,11 @@
 class Node:
 
 
-    def __init__(self, toadd, next = None, prev = None):
+    def __init__(self, toadd, prev = None, next = None):
 
         self.content = toadd
-        self.next = None
-        self.prev = None
+        self.prev = prev
+        self.next = next
 
         return
 
@@ -39,11 +39,19 @@ class Queue:
         return
 
     # Remove and return first node in queue
+    # TODO: fix crash when removing last object in queue
     def dequeue(self):
 
-        toremove = self.__tail
-        self.__tail = self.__tail.prev
-        self.__tail.next = None
+        toremove = self.__head
+
+        if toremove.next == None:
+
+            self.__head = None
+
+        else:
+
+            self.__head = toremove.next
+            self.__head.prev = None
 
         return toremove
 
@@ -70,3 +78,9 @@ class Queue:
         else:
 
             return False
+
+    def writechain(self):
+
+        if self.prev != None:
+
+            self.prev.writechain()

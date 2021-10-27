@@ -7,7 +7,7 @@ class Node:
 
     __node_count = 0
 
-    # TODO: Add next node array
+    # TODO: Add next vertice array
     def __init__(self, position):
 
         Node.__node_count += 1
@@ -15,10 +15,9 @@ class Node:
         self.id = Node.__node_count
         self.position = position
         self.next = {}
-
+        self.connections = {}
         self.data = Feature(geometry = Point((position[0], position[1]), precision = 15),
                             properties = {"id": self.id})
-
 
         return
 
@@ -42,6 +41,14 @@ class Segment:
         self.data = Feature(geometry = MultiLineString(((coordinates)), precision = 15), properties = {"id": self.id, "cost": self.cost})
 
         return
+
+class Sequence:
+
+    def __init__():
+
+        return
+
+
 
 class Network:
 
@@ -71,6 +78,7 @@ class Network:
 
                 first = True
 
+                # Get the end points of the line segment
                 for a in seg_nodes:
 
                     for b in seg_nodes:
@@ -95,6 +103,8 @@ class Network:
                                 next
 
                 Network.__sum_nodes += 1
+
+                # Add the start node to the dictionary of nodes if unique
                 for nid, node in self.nodes.items():
 
                     if start == node:
@@ -110,8 +120,11 @@ class Network:
 
                 self.nodes[start.id] = start
                 seg.fnode = start
+                start.connections.update({seg.id : seg})
 
                 Network.__sum_nodes += 1
+
+                # Add the end node to the dictionary of nodes if unique
                 for nid, node in self.nodes.items():
 
                     if end == node:
@@ -127,12 +140,14 @@ class Network:
 
                 self.nodes[end.id] = end
                 seg.tnode = end
+                end.connections.update({seg.id : seg})
 
                 # Update geojson
                 seg.data['properties'].update({"fnode" : start.id, "tnode" : end.id})
                 self.edges[seg.id] = seg
 
         print("SUCCESS: Created " + str(Network.__sum_nodes) + " nodes")
+
         return
 
     # Calculates shortest path between source and target node
@@ -142,9 +157,33 @@ class Network:
 
     def shortest_path(self, source, target):
 
-        Q.Queue()
+        Q = Queue()
+        Q.enqueue(self.nodes[source])
 
-        return seq
+        looping = True
+
+        while looping:
+
+            x = Q.dequeue()
+            selected_node = x.content
+
+            # Get all segments connecting to the node
+            for key, value in selected_node.connections.items():
+
+                if value.fnode == selected_node.id:
+
+                    next_node = nodes[value.tnode]
+
+                elif value.tnode == selected_node.id:
+
+                    next_node = nodes[value.fnode]
+
+
+            if Q.isEmpty:
+
+                looping = False
+
+        return
 
     # Calculates the shortest path to all nodes in the network from source node
     # IN: soruce node

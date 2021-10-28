@@ -172,11 +172,11 @@ class Network:
 
                 if value.fnode == selected_node.id:
 
-                    next_node = nodes[value.tnode]
+                    next_node = self.nodes[value.tnode]
 
                 elif value.tnode == selected_node.id:
 
-                    next_node = nodes[value.fnode]
+                    next_node = self.nodes[value.fnode]
 
 
             if Q.isEmpty:
@@ -189,10 +189,10 @@ class Network:
     # IN: soruce node
     # OUT: dictionary with node id as key and distance to said node as value
 
-    def distance_from(self,source):
+    def distance_from(self, source):
 
 
-        return distance_map
+        return
 
 
     # Writes the nodes and the edges to separe geojson files
